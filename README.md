@@ -15,6 +15,7 @@ Proyek ini bertujuan untuk menganalisis dataset peminjaman sepeda (Bike Sharing 
 |-- notebook.ipynb           # Analisis eksploratif dalam Jupyter Notebook
 |-- requirements.txt         # Daftar library yang dibutuhkan
 |-- README.md                # Dokumentasi proyek
+|-- url.txt                  # link streamlit
 ```
 
 ## Instalasi dan Menjalankan Program
@@ -57,12 +58,4 @@ Setelah deployment berhasil, kamu akan mendapatkan link dashboard yang bisa diba
 
 ## Dataset
 Dataset yang digunakan berasal dari Bike Sharing Dataset dan telah diproses untuk keperluan analisis dan visualisasi.
-
-## Kontributor
-- **Nama Kamu** - Data Analyst
-
-Jika ada pertanyaan, silakan hubungi saya melalui [GitHub Issues](https://github.com/username/repo-name/issues).
-
----
-**License**: MIT
 
