@@ -8,7 +8,7 @@ import os
 # Load Data
 def load_data():
     # Dapatkan path absolut berdasarkan lokasi file script
-    file_path = os.path.join(os.path.dirname(__file__), "all_data.csv")  
+    file_path = os.path.join(os.path.dirname(__file__), "all_data.csv")
     df = pd.read_csv(file_path)
     df = df.loc[:, ~df.columns.duplicated()]
     df['dteday'] = pd.to_datetime(df['dteday'])
@@ -21,7 +21,7 @@ max_date = df["dteday"].max()
 
 with st.sidebar:
     # Menambahkan logo perusahaan 
-    st.image("logo bike rental.jpg")
+    st.image(os.path.abspath("logo bike rental.jpg"))
 
     # Mengambil start_date & end_date dari date_input
     start_date, end_date = st.date_input(
