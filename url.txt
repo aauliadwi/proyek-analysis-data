@@ -1,9 +1,1 @@
-### **1. Deploy Dashboard Streamlit**
-```bash
 https://proyek-analysis-data-dsbr.streamlit.app/
-```
-
-### **2. Repository Github**
-```bash
-
-```
