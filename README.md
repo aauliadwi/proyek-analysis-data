@@ -47,7 +47,7 @@ Dashboard akan terbuka di browser secara otomatis.
 - **Statistik Utama**: Menampilkan total peminjaman dan rata-rata peminjaman berdasarkan kategori waktu.
 
 ## Deployment
-Dashboard ini dapat dideploy menggunakan **Streamlit Community Cloud** atau platform lain seperti **Render** dan **Heroku**.
+Dashboard ini dapat dideploy menggunakan **Streamlit Community Cloud**.
 
 ### **Deploy dengan Streamlit Community Cloud**
 1. **Upload proyek ke GitHub**.
