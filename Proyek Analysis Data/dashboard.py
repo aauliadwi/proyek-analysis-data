@@ -3,10 +3,12 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import scipy.stats as stats
+import os
 
 # Load Data
 def load_data():
-    file_path = "all_data.csv"  
+    # Dapatkan path absolut berdasarkan lokasi file script
+    file_path = os.path.join(os.path.dirname(__file__), "all_data.csv")  
     df = pd.read_csv(file_path)
     df = df.loc[:, ~df.columns.duplicated()]
     df['dteday'] = pd.to_datetime(df['dteday'])
