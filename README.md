@@ -24,27 +24,28 @@ Proyek ini bertujuan untuk menganalisis dataset peminjaman sepeda (Bike Sharing 
 ### **1. Clone Repository**
 Jalankan perintah berikut di terminal:
 ```bash
-git clone https://github.com/username/repo-name.git
-cd repo-name
+git clone https://github.com/aauliadwi/proyek-analysis-data.git
+cd proyek-analysis-data
 ```
-
-### **2. Install Dependencies**
-Gunakan perintah berikut untuk menginstal library yang diperlukan:
+### **2. Setup Environment - Anaconda**
 ```bash
+conda create --name dashboard-ds python=3.13.2
+conda activate dashboard-ds
 pip install -r requirements.txt
 ```
-
-### **3. Jalankan Dashboard Streamlit**
-Untuk menjalankan dashboard, gunakan perintah berikut:
+### **3. Setup Environment - Shell/Terminal**
+```bash
+mkdir proyek_analisis_data
+cd proyek_analisis_data
+pipenv install
+pipenv shell
+pip install -r requirements.txt
+```
+### **4. Jalankan Dashboard Streamlit**
 ```bash
 streamlit run dashboard.py
 ```
 Dashboard akan terbuka di browser secara otomatis.
-
-## Fitur Dashboard
-- **Filter Data**: Pengguna dapat memfilter data berdasarkan musim, cuaca, jam, dan hari dalam seminggu.
-- **Visualisasi Data**: Grafik interaktif untuk menampilkan pola peminjaman sepeda berdasarkan berbagai variabel.
-- **Statistik Utama**: Menampilkan total peminjaman dan rata-rata peminjaman berdasarkan kategori waktu.
 
 ## Deployment
 Dashboard ini dapat dideploy menggunakan **Streamlit Community Cloud**.
