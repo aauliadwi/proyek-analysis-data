@@ -5,12 +5,14 @@ Proyek ini bertujuan untuk menganalisis dataset peminjaman sepeda (Bike Sharing 
 
 ## Struktur Proyek
 ```
-|-- dashboard/
+|-- Proyek Analysis Data/
 |   |-- dashboard.py         # File utama untuk menjalankan dashboard Streamlit
 |   |-- all_data.csv         # Dataset peminjaman sepeda
 |
-|-- data/
+|-- Bike sharing dataset/
 |   |-- README.md            # Dokumentasi dataset
+|   |-- day.csv              # Dataset dari tabel day
+|   |-- hour.csv             # Dataset dari tabel hour
 |
 |-- notebook.ipynb           # Analisis eksploratif dalam Jupyter Notebook
 |-- requirements.txt         # Daftar library yang dibutuhkan
